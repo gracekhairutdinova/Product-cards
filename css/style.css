@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.product-cards {
+    width: 80%;
+    margin: auto;
+    clear: both;
+    display: table;
+}
+
+.product-card {
+    width: 23%;
+    background-color: #2F3333;
+    margin: 14px;
+    border-radius: 25px;
+    float: left;
+    position: relative;
+}
+
+.sale {
+    color: white;
+    background-color: red;
+    font-size: 11px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.product-card-img {
+    padding: 10px 25px;
+    border-bottom: 2px solid #979C9C;
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-card-title {
+    color: white;
+    margin: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.price {
+    clear: both;
+    display: table;
+    margin: auto;
+}
+
+.price-in-dollars {
+    float: left;
+    margin-right: 40px;
+}
+
+.price-in-hryvnia {
+    float: right;
+    margin-left: 40px;
+}
+
+button {
+    color: white;
+    background-color: blueviolet;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 10% 15px;
+    border-radius: 25px;
+}
